@@ -1,0 +1,37 @@
+# Python and editor caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+.idea/
+.vscode/
+# Credentials and machine-specific data
+.env
+.env.*
+*cookie*
+*.sqlite*
+*.db
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+.auth/
+.secrets/
+# Scraped output and private run artifacts
+Downloads/
+downloads/
+output/
+*.zip
+*.zip.part
+facebook-photos-*/
+instagram-posts-*/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.mp4
+ACTIVE_REQUEST.json
+**/live-*.json

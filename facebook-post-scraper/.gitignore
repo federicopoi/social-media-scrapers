@@ -1,0 +1,35 @@
+# Local Python/tool caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+.idea/
+.vscode/
+# Login material and machine configuration
+.env
+.env.*
+!.env.example
+*cookie*
+!tests/test_auth.py
+*.sqlite*
+*.db
+*.pem
+*.key
+*.log
+.auth/
+.secrets/
+# Scraped output and private live-run artifacts
+Downloads/
+downloads/
+output/
+*.zip
+*.zip.part
+facebook-photos-*/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.mp4
+tests/*verification*.json
